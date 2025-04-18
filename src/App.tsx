@@ -1,11 +1,11 @@
+import { Content } from "./components/Content";
+import { PageContent } from "./components/PageContent";
 
 function App() {
 
   return (
     <>
-      <h1>
-        Portfolio
-      </h1>
+      <Content content={<PageContent />}/>
     </>
   )
 }
